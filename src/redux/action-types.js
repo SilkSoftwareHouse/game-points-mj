@@ -1,0 +1,7 @@
+const ACTION = {
+  GET_GAME_SETTINGS: 'GET_GAME_SETTINGS',
+  CLICK_ON_ITEM: 'CLICK_ON_ITEM',
+  NEW_GAME: 'NEW_GAME'
+};
+
+export default ACTION;

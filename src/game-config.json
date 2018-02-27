@@ -1,0 +1,46 @@
+{
+  "gameItems": [
+    {
+      "id": "a",
+      "name": "A",
+      "unitPoints": 50,
+      "bonus": {
+        "quantity": 3,
+        "points": 200
+      }
+    },
+    {
+      "id": "b",
+      "name": "B",
+      "unitPoints": 30,
+      "bonus": {
+        "quantity": 2,
+        "points": 90
+      }
+    },
+    {
+      "id": "c",
+      "name": "C",
+      "unitPoints": 20,
+      "bonus": null
+    },
+    {
+      "id": "d",
+      "name": "D",
+      "unitPoints": 15,
+      "bonus": null
+    },
+    {
+      "id": "e",
+      "name": "E",
+      "unitPoints": 10,
+      "bonus": null
+    },
+    {
+      "id": "f",
+      "name": "F",
+      "unitPoints": 5,
+      "bonus": null
+    }
+  ]
+}

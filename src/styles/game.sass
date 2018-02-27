@@ -1,0 +1,36 @@
+html,
+body,
+#root
+  height: 100%
+
+.game-place
+  @include media-breakpoint-up(lg)
+    &__nav
+      height: 3.5rem
+
+    &__content
+      height: calc(100% - 3.5rem)
+      overflow-y: auto
+
+  .game-item
+    cursor: crosshair
+    min-width: 30%
+
+    .card-body
+      padding: 1rem
+
+    &:active
+      transform: translate(4px, 4px)
+
+    &__name
+      font-size: 4rem
+      font-weight: bold
+
+.game-info
+  @include media-breakpoint-up(lg)
+    &__nav
+      height: 3.5rem
+
+    &__content
+      height: calc(100% - 3.5rem)
+      overflow-y: auto
